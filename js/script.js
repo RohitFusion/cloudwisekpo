@@ -427,20 +427,20 @@ var THEMEMASCOT = {};
 				loop: true,
 				spaceBetween: 35,
 				speed: 1000,
-				autoplay: {
-					delay: 3000,
-					disableOnInteraction: false,
-				},
+				// autoplay: {
+				// 	delay: 3000,
+				// 	disableOnInteraction: false,
+				// },
 				pagination: {
 					el: ".testimonial-pagination",
 					clickable: true,
 				},
 				breakpoints: {
 					767: {
-						slidesPerView: 1,
+						slidesPerView: 2,
 					},
 					1350: {
-						slidesPerView: 2,
+						slidesPerView: 3,
 					},
 					1600: {
 						slidesPerView: 3,

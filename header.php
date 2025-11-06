@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from html.kodesolution.com/2025/consultez-html-v2/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 02 Nov 2025 11:11:23 GMT -->
 <head>
 <meta charset="utf-8">
 <title>Cloud Wise KPO</title>
@@ -13,8 +12,8 @@
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/fvicon.png" type="image/x-icon">
+<link rel="icon" href="img/fvicon.png" type="image/x-icon">
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,8 +77,13 @@
               <li><a href="javascript:void(0);">About Us</a></li>
               <li class="dropdown"><a href="javascript:void(0);">Services</a>
                 <ul>
-                  <li><a href="javascript:void(0);">Services</a></li>
-                  <li><a href="javascript:void(0);">Services Details</a></li>
+                  <li><a href="javascript:void(0);">Comprehensive Bookkeeping</a></li>
+                  <li><a href="javascript:void(0);">Year End Accounts Preparation</a></li>
+                  <li><a href="javascript:void(0);">VAT Returns Management</a></li>
+                  <li><a href="javascript:void(0);">Corporation Tax Planning</a></li>
+                  <li><a href="javascript:void(0);">Personal Tax Returns</a></li>
+                  <li><a href="javascript:void(0);">Management Accounts</a></li>
+
                 </ul>
               </li>
               <li><a href="javascript:void(0);">Faq</a></li>
@@ -92,7 +96,7 @@
         </div>
         <div class="outer-box">
           <div class="info-box">
-            <a class="btn-one-light" href="page-contact.html">Connect Now</a> <span class="mx-3"> | </span> <div class="call-info">
+            <a class="btn-one-light dark-bg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Connect Now</a> <span class="mx-3"> | </span> <div class="call-info">
               <i class="fa-solid fa-phone ring__animation"></i>
               <div>
                 <h6 class="title">Phone:</h6>
@@ -135,7 +139,7 @@
                 <div class="contact-info-box">
                   <span class="icon lnr-icon-envelope1"></span>
                   <span class="title">Send Email</span>
-                  <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#fe969b928ebe9d91938e9f9087d09d9193"><span class="__cf_email__" data-cfemail="a7cfc2cbd7e7c4c8cad7c6c9de89c4c8ca">[email&#160;protected]</span></a>
+                  <a href="javascript:void(0);"><span class="__cf_email__" data-cfemail="a7cfc2cbd7e7c4c8cad7c6c9de89c4c8ca">[email&#160;protected]</span></a>
                 </div>
               </li>
               <li>
@@ -161,7 +165,7 @@
           <span class="search-back-drop"></span>
           <button class="close-search"><span class="fa fa-times"></span></button>
           <div class="search-inner">
-            <form method="post" action="https://html.kodesolution.com/2025/consultez-html-v2/index.html">
+            <form method="post" action="kodesolution">
               <div class="form-group">
                 <input type="search" name="search-field" value="" placeholder="Search..." required="">
                 <button type="submit"><i class="fa fa-search"></i></button>
