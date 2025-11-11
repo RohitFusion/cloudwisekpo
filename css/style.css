@@ -23389,3 +23389,24 @@ line-height: 39px !important;
   font-family: 'DM Sans';
   overflow: hidden;
 }
+.color-white {
+    color: white;
+}
+.btn-contact
+{
+
+}
+.connt_font .font_icon
+{
+    font-size: 20px;
+    height: 50px;
+    line-height: 20px;
+    background-color: var(--theme-color2);
+    width: 50px;
+    padding: 16px
+}
+.connt_font p
+{
+  font-size: 15px;
+  margin-bottom: 0;
+}
