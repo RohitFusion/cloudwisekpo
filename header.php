@@ -123,7 +123,7 @@
               </div>
             </div>
           </div>
-          <div class="mobile-nav-toggler d-none"><i class="fa-light fa-bars-staggered text-white"></i></div>
+          <div class="mobile-nav-toggler"><i class="fa-light fa-bars-staggered text-white"></i></div>
           <!-- Mobile Nav toggler -->
         </div>
       </div>
@@ -134,65 +134,16 @@
           <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
           <nav class="menu-box">
             <div class="upper-box">
-              <div class="nav-logo"><a href="javascript:void(0);"><img src="images/logo-light.png" alt=""></a></div>
+              <div class="nav-logo"><a href="javascript:void(0);"><img src="img/logo.png" alt=""></a></div>
               <div class="close-btn"><i class="icon fa fa-times"></i></div>
             </div>
             <ul class="navigation clearfix d-block d-lg-none">
               <!--Keep This Empty / Menu will come through Javascript-->
             </ul>
-            <div class="content-box d-none d-lg-block">
-              <h4 class="title">About Us</h4>
-              <p class="text">Consultez is the go-to hub for early adopters and innovation enthusiasts, offering cutting technology widely.</p>
-            </div>
-            <ul class="contact-list-one">
-              <li>
-                <!-- Contact Info Box -->
-                <div class="contact-info-box">
-                  <i class="icon lnr-icon-phone-handset"></i>
-                  <span class="title">Call Now</span>
-                  <a href="tel:+92880098670">+92 (8800) - 98670</a>
-                </div>
-              </li>
-              <li>
-                <!-- Contact Info Box -->
-                <div class="contact-info-box">
-                  <span class="icon lnr-icon-envelope1"></span>
-                  <span class="title">Send Email</span>
-                  <a href="javascript:void(0);"><span class="__cf_email__" data-cfemail="a7cfc2cbd7e7c4c8cad7c6c9de89c4c8ca">[email&#160;protected]</span></a>
-                </div>
-              </li>
-              <li>
-                <!-- Contact Info Box -->
-                <div class="contact-info-box">
-                  <span class="icon lnr-icon-clock"></span>
-                  <span class="title">Send Email</span>
-                  Mon - Sat 8:00 - 6:30, Sunday - CLOSED
-                </div>
-              </li>
-            </ul>
-            <ul class="social-links">
-              <li><a href="javascript:void(0);"><i class="fab fa-x-twitter"></i></a></li>
-              <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="javascript:void(0);"><i class="fab fa-pinterest"></i></a></li>
-              <li><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
-            </ul>
           </nav>
         </div>
         <!-- End Mobile Menu -->
-        <!-- Header Search -->
-        <div class="search-popup">
-          <span class="search-back-drop"></span>
-          <button class="close-search"><span class="fa fa-times"></span></button>
-          <div class="search-inner">
-            <form method="post" action="kodesolution">
-              <div class="form-group">
-                <input type="search" name="search-field" value="" placeholder="Search..." required="">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <!-- End Header Search -->
+       
 
         <!-- Sticky Header  -->
         <div class="sticky-header">

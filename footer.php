@@ -25,7 +25,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row g-4 g-xl-0">
-            <div class="col-sm-6 col-xl-3 footer-column">
+            <div class="col-sm-6 col-xl-3 col-6 footer-column">
               <div class="footer-widget links-widget">
                 <h4 class="widget-title">Quick Links</h4>
                 <div class="widget-content">
@@ -41,7 +41,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-xl-5 footer-column">
+            <div class="col-sm-6 col-xl-5 col-6 footer-column">
               <div class="footer-widget links-widget">
                 <h4 class="widget-title">Our Services</h4>
                 <div class="widget-content">
@@ -306,6 +306,34 @@
   </div>
 </div>
 
+<ul class="socials-media-container">
+  <li class="socials-media instagram">
+		<i class="fab fa-instagram"></i>
+		<a href="#" target="_blank">Instagram</a>
+	</li>
+	<li class="socials-media facebook">
+		<i class="fab fa-facebook-square"></i>
+		<a href="#" target="_blank">Facebook</a>
+	</li>
+	<li class="socials-media youtube">
+		<i class="fab fa-youtube"></i>
+		<a href="#" target="_blank">YouTube</a>
+	</li>
+	
+	<li class="socials-media linkedin">
+		<i class="fab fa-linkedin-in"></i>
+		<a href="#" target="_blank">Linkedin</a>
+	</li>
+	
+  <li class="socials-media twetter">
+    <i class="fas fa-times"></i>
+    <a href="#" target="_blank">Twitter</a>
+  </li>
+  <li class="socials-media whatsapp">
+		<i class="fab fa-whatsapp"></i>
+		<a href="https://api.whatsapp.com/send?phone=+919999999999&amp;text=Hi%20Cloud%20Wise%20KPO!%20I%20would%20like%20to%E2%80%A6" target="_blank">Whatsapp</a>
+	</li>
+</ul>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -358,6 +386,19 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6910729d1b866219575e4fd5/1j9k3vef8';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 
 

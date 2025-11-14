@@ -1,37 +1,4 @@
-/*
 
-Template Name: Consultez
-Version: 1.0.0
-License: copyright commercial
-
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global Settings
-4. Main Header / TwO
-5. Sticky Header
-6. Mobile Menu
-7. Section Title
-8. Main Slider
-9. Banner Section
-10. Project Section
-11. Features Section / TwO / Three / Four / Five
-12. About Section / Two
-13. Services Section / Two
-14. Call To Action / Two
-15. FAQ's Sectiom
-16. Marquee Section
-17. Fun Fact Section
-18. Testimonial Section / Two
-19. team Section
-20, Contact Section / Two
-21. Why Choose Us / Two
-22. News Section / Two
-23. Video Section
-24. Map Section
-25. Clients Section
-26. Main Footer
-**********************************************/
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap");
 @import url("animate.css");
@@ -491,7 +458,7 @@ figure.image {
   margin: 0 auto;
   width: 100%;
   min-width: 300px;
-  z-index: 99;
+  /* z-index: 99; */
   overflow-x: hidden;
   background-color: #ffffff;
 }
@@ -4958,7 +4925,7 @@ Sticky Header
   right: -5px;
   text-align: center;
   font-size: 18px;
-  color: #ffffff;
+  color: #000;
   height: 30px;
   width: 30px;
   line-height: 30px;
@@ -4979,7 +4946,7 @@ Sticky Header
   width: 100%;
 }
 .mobile-menu .nav-logo img {
-  max-height: 50px;
+  max-height: 115px;
 }
 .mobile-menu .menu-box {
   position: relative;
@@ -4999,7 +4966,7 @@ Sticky Header
   height: 100%;
   max-height: 100%;
   overflow-y: auto;
-  background-color: #222;
+  background-color: #fff;
   padding: 0px 0px;
   z-index: 5;
   opacity: 0;
@@ -5064,7 +5031,7 @@ Sticky Header
 .mobile-menu .navigation li {
   position: relative;
   display: block;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(112, 109, 109, 0.132);
 }
 .mobile-menu .navigation li > ul > li:last-child {
   border-bottom: none;
@@ -5078,12 +5045,12 @@ Sticky Header
   line-height: 24px;
   padding: 10px 20px;
   font-size: 16px;
-  color: #ffffff;
+  color: #000;
   font-weight: 400;
   text-transform: capitalize;
 }
 .mobile-menu .navigation li:hover > a, .mobile-menu .navigation li.current > a {
-  color: #ffffff;
+  color: #000;
 }
 .mobile-menu .navigation li.dropdown .dropdown-btn {
   position: absolute;
@@ -5094,7 +5061,7 @@ Sticky Header
   text-align: center;
   font-size: 16px;
   line-height: 44px;
-  color: #ffffff;
+  color: #000;
   cursor: pointer;
   z-index: 5;
 }
@@ -5405,9 +5372,16 @@ Section Title
   margin-bottom: 0;
 }
 @media (max-width: 767.98px) {
-  .sec-title .title {
-    font-size: 30px;
-    line-height: 40px;
+  
+  .about-section-four .image-column .inner-column .image1
+  {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .about-section-four .image-column .inner-column .image2
+  {
+    max-width: 100% !important;
+    right: 0% !important;
   }
 }
 .sec-title .title.light {
@@ -11557,7 +11531,7 @@ CONTACT Details
 }
 @media (max-width: 767.98px) {
   .service-section-three.have-pb {
-    padding-bottom: 150px;
+    padding-bottom: 70px;
   }
 }
 .service-section-three .sec-shape {
@@ -23463,4 +23437,93 @@ line-height: 39px !important;
   font-weight: 600;
   margin-bottom: 0;
   font-size: 38px;
+}
+.socials-media-container {
+  top: 50%;
+  list-style-type: none;
+  padding: 0;
+  position: fixed;
+  left: calc(100% - 48px);
+  transform: translateY(-50%);
+  min-width: 250px;
+  z-index: 1;
+}
+.socials-media {
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.socials-media i {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 12px;
+  text-align: center;
+  width: 50px;
+}
+.socials-media a {
+  color: #fff;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.socials-media.instagram {
+  background: linear-gradient(45deg, #fcd533, #ec4b78, #6941cd, #c13584, #e1306c, #ed4a63);
+}
+.socials-media.facebook {
+  background-color: #4267B2;
+}
+.socials-media.youtube {
+  background-color: red;
+}
+.socials-media.linkedin {
+  background-color: #0077b5;
+}
+.socials-media.twetter {
+  background: #000000;
+}
+.socials-media.whatsapp {
+  background: #25D366;
+}
+.socials-media:hover {
+  transform: translateX(calc(-100% + 125px));
+}
+@media (max-width: 767.98px) {
+  .sec-title .title {
+      font-size: 22px !important;
+      line-height: 35px;
+  }
+  .about-section-four .content-column .inner-column
+  {
+    max-width: 100%;
+    text-align: justify;
+  }
+  .service-section-three .sec-shape
+  {
+    display: none;
+  }
+  .growth-section .sec-title
+  {
+    padding-top: 40px;
+  }
+  .links-widget
+  {
+    padding: 0px 8px;
+  }
+  .page-title
+  {
+    padding: 50px 0 19px;
+  }
+  .page-title .title
+  {
+    font-size: 40px;
+  }
+  .feature-two__item .feature__content .title
+  {
+    font-size: 18px;
+  }
+  .process-section-four .process-tab
+  {
+    max-width: 100%;
+  }
 }

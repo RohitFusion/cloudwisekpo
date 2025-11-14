@@ -257,7 +257,7 @@
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                   <div class="content-box">
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/2150282089.jpg" class="service-image">
 
@@ -288,7 +288,7 @@
 
                       </div>
 
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/16143.jpg" class="service-image">
 
@@ -315,7 +315,7 @@
 
                       </div>
 
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/148076.jpg" class="service-image">
 
@@ -343,7 +343,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/2147626398.jpg" class="service-image">
 
@@ -371,7 +371,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/123661.jpg" class="service-image">
 
@@ -399,7 +399,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/357.jpg" class="service-image">
 
@@ -441,7 +441,7 @@
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                   <div class="content-box">
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/2150282089.jpg" class="service-image">
 
@@ -464,7 +464,7 @@
 
                       </div>
 
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/16143.jpg" class="service-image">
 
@@ -486,7 +486,7 @@
 
                       </div>
 
-                      <div class="col-md-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/148076.jpg" class="service-image">
 
@@ -509,7 +509,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/2147626398.jpg" class="service-image">
 
@@ -532,7 +532,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/123661.jpg" class="service-image">
 
@@ -555,7 +555,7 @@
 
                       </div>
 
-                      <div class="col-md-4 mt-4">
+                      <div class="col-md-4 mb-4">
                         <div class="service-box">
                           <img src="img/357.jpg" class="service-image">
 

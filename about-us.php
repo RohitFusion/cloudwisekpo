@@ -103,7 +103,7 @@
       </div>
       <div class="feature-two__wrp">
         <div class="row g-4">
-          <div class="col-md-6 col-xl-3 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+          <div class="col-md-6 col-xl-3 col-6 wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
             <div class="feature-two__item">
               <div class="feature__icon">
                 <svg width="80" height="65" viewBox="0 0 80 65" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-3 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+          <div class="col-md-6 col-xl-3 col-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
             <div class="feature-two__item">
               <div class="feature__icon">
                 <svg width="91" height="74" viewBox="0 0 91 74" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-3 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+          <div class="col-md-6 col-xl-3 col-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div class="feature-two__item">
               <div class="feature__icon">
                 <svg width="66" height="64" viewBox="0 0 66 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-xl-3 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+          <div class="col-md-6 col-xl-3 col-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div class="feature-two__item overflow-hidden">
               <div class="feature__icon">
                 <svg width="68" height="69" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg">
