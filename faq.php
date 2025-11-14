@@ -130,13 +130,13 @@
                        
                         </div>
                       </div>
-                      <div class="col-lg-6">
+                      <div class="col-lg-12">
                         <div class="input-feild">
                           <input type="tel" placeholder="Phone Number">
                           
                         </div>
                       </div>
-                      <div class="col-lg-6">
+                      <div class="col-lg-12">
                         <div class="input-feild">
                           <select name="#" id="subject" style="display: none;">
                             <option value="0">Select Services</option>

@@ -172,7 +172,7 @@
           </div>
         </div>
         <h5 class="sec-text mt-50 wow fadeInDown animated" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInDown;">Embrace Innovation,
-            Adapt Quickly, and Lead with Confidence. <a href="javascript:void(0);">Consult Now</a></h5>
+            Adapt Quickly, and Lead with Confidence. <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >Consult Now</a></h5>
       </div>
     </div>
   </section>

@@ -67,28 +67,47 @@
       <!-- Main box -->
       <div class="main-box">
         <div class="logo-box">
-          <div class="logo"><a href="javascript:void(0);"><img src="img/logo.png" alt="" title="Consultez"></a></div>
+          <div class="logo"><a href="index.php"><img src="img/logo.png" alt="" title="Consultez"></a></div>
         </div>
         <!--Nav Box-->
         <div class="nav-outer">
           <nav class="nav main-menu">
             <ul class="navigation">
-              <li><a href="javascript:void(0);">Home</a></li>
-              <li><a href="javascript:void(0);">About Us</a></li>
-              <li class="dropdown"><a href="javascript:void(0);">Services</a>
-                <ul>
-                  <li><a href="javascript:void(0);">Comprehensive Bookkeeping</a></li>
-                  <li><a href="javascript:void(0);">Year End Accounts Preparation</a></li>
-                  <li><a href="javascript:void(0);">VAT Returns Management</a></li>
-                  <li><a href="javascript:void(0);">Corporation Tax Planning</a></li>
-                  <li><a href="javascript:void(0);">Personal Tax Returns</a></li>
-                  <li><a href="javascript:void(0);">Management Accounts</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about-us.php">About Us</a></li>
 
+
+              <li class="dropdown"><a href="#">Services</a>
+                <ul>
+                  <li class="dropdown"><a href="#">Australian Services</a>
+                    <ul>
+                    <li><a href="australian-services.php#comprehensive-bookkeeping">Comprehensive Bookkeeping</a></li>
+                    <li><a href="australian-services.php#account-preparation">Year End Accounts Preparation</a></li>
+                    <li><a href="australian-services.php#vat-return-management">VAT Returns Management</a></li>
+                    <li><a href="australian-services.php#corporation-tax-planning">Corporation Tax Planning</a></li>
+                    <li><a href="australian-services.php#personal-tax-return">Personal Tax Returns</a></li>
+                    <li><a href="australian-services.php#management-accounts">Management Accounts</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown"><a href="#">UK Services</a>
+                    <ul>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">Comprehensive Bookkeeping</a></li>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">Year End Accounts Preparation</a></li>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">VAT Returns Management</a></li>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">Corporation Tax Planning</a></li>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">Personal Tax Returns</a></li>
+                    <li><a href="uk-services.php#comprehensive-bookkeeping">Management Accounts</a></li>
+                    </ul>
+                  </li>
+                  
+                
                 </ul>
               </li>
-              <li><a href="javascript:void(0);">Faq</a></li>
-              <li><a href="javascript:void(0);">Career With us</a></li>
-              <li><a href="javascript:void(0);">Contact Us</a></li>
+             
+              <li><a href="faq.php">Faq</a></li>
+              <li><a href="career.php">Career With us</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
              
             </ul>
           </nav>

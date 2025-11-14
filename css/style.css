@@ -3524,6 +3524,7 @@ Main Header
   padding: 10px 0px;
   line-height: 29px;
   font-weight: 500;
+  font-family: 'DM Sans';
   font-size: 14px;
   text-align: left;
   margin: 0 30px;
@@ -3560,7 +3561,7 @@ Main Header
   position: absolute;
   left: 100%;
   top: 0px;
-  width: 220px;
+  width: 265px;
   z-index: 100;
   display: none;
   background-color: #ffffff;
@@ -3568,9 +3569,9 @@ Main Header
   padding: 10px 0 0;
   margin-top: 10px;
   -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
+  transform: translateY(-30px);
   -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
 }
 .main-menu .navigation > li > ul > li > ul > li {
   position: relative;
@@ -3585,8 +3586,9 @@ Main Header
   display: block;
   padding: 10px 0;
   line-height: 24px;
+  font-family: 'DM Sans';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   margin: 0 30px;
   text-transform: capitalize;
@@ -12128,6 +12130,8 @@ CONTACT Details
 .steps-block .icon i {
   -webkit-transition: all 900ms ease;
   transition: all 900ms ease;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(101%);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(283deg) brightness(104%) contrast(101%);
 }
 .steps-block .icon svg path,
 .steps-block .icon i path {
@@ -23409,4 +23413,54 @@ line-height: 39px !important;
 {
   font-size: 15px;
   margin-bottom: 0;
+}
+
+.section-2 .inner-column {
+    max-width: 100% !important;
+}
+
+.section-2 .inner-column .choose-tab .nav {
+  border-bottom: 2px solid rgba(2, 6, 38, 0.102);
+  gap: 10px !important;
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: flex-start !important;
+}
+.serr-box .image1 img {
+  width: 100%;
+  height: 450px !important;
+  object-fit: cover;
+}
+
+
+.serr-box .image2 img {
+  width: 100%;
+  height: 178px;
+  object-fit: cover;
+
+}
+
+.serr-box .image-column .inner-column .image2 {
+  max-width: 279px;
+  overflow: hidden;
+  border-radius: 0px;
+  position: absolute;
+  bottom: -55px;
+  left: -26px;
+  border: 8px solid #ffffff00;
+}
+.serr-box .inner-column .image2 {
+  max-width: 279px;
+  overflow: hidden;
+  border-radius: 0px;
+  position: absolute;
+  z-index: -9;
+  bottom: -55px;
+  right: -26px;
+  border: 8px solid white;
+}
+.serr-box .sec-title .title {
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 38px;
 }
