@@ -334,13 +334,22 @@
 		<a href="https://api.whatsapp.com/send?phone=+919999999999&amp;text=Hi%20Cloud%20Wise%20KPO!%20I%20would%20like%20to%E2%80%A6" target="_blank">Whatsapp</a>
 	</li>
 </ul>
+<div class="bid-site-visit">
+            <div class="row">
+                <div class="col">
+                    <a href="tel:+919266386900" onclick="gtag_call_conversion()"> <img src="images/call-icon-gif.gif"><br> Call Now</a>
+                </div>
+                <div class="col">   
+                    <a href="https://api.whatsapp.com/send?phone=919999999999&amp;text=Hello,%20I%20am%20interested%20in%20Cloud Wise KPO%20.%20Please%20get%20in%20touch%E2%80%A6" onclick=""> 
+                         <img src="images/whatsapp.gif"><br>  Whatsapp
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="javascript:void(0);" data-toggle="modal" data-target="#exampleModal"><img src="images/fillaform.jpeg"> <br> Enquire Now</a>
+                </div>
+            </div>
+        </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
-    myModal.show();
-  });
-</script>
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>

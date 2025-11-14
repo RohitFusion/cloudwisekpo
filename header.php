@@ -93,11 +93,11 @@
                   <li class="dropdown"><a href="#">UK Services</a>
                     <ul>
                     <li><a href="uk-services.php#comprehensive-bookkeeping">Comprehensive Bookkeeping</a></li>
-                    <li><a href="uk-services.php#comprehensive-bookkeeping">Year End Accounts Preparation</a></li>
-                    <li><a href="uk-services.php#comprehensive-bookkeeping">VAT Returns Management</a></li>
-                    <li><a href="uk-services.php#comprehensive-bookkeeping">Corporation Tax Planning</a></li>
-                    <li><a href="uk-services.php#comprehensive-bookkeeping">Personal Tax Returns</a></li>
-                    <li><a href="uk-services.php#comprehensive-bookkeeping">Management Accounts</a></li>
+                    <li><a href="uk-services.php#account-preparation">Year End Accounts Preparation</a></li>
+                    <li><a href="uk-services.php#vat-return-management">VAT Returns Management</a></li>
+                    <li><a href="uk-services.php#corporation-tax-planning">Corporation Tax Planning</a></li>
+                    <li><a href="uk-services.php#personal-tax-return">Personal Tax Returns</a></li>
+                    <li><a href="uk-services.php#management-accounts">Management Accounts</a></li>
                     </ul>
                   </li>
                   

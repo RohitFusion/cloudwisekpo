@@ -6,7 +6,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li>Services</li>
             </ul>
-            <h1 class="title">Australian Services</h1>
+            <h1 class="title">UK Services</h1>
         </div>
     </div>
 </section>

@@ -1315,5 +1315,10 @@
 
 
 <!-- Blog area end here -->
-
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    myModal.show();
+  });
+</script>
 <?php include('footer.php'); ?>
